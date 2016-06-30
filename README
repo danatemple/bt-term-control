@@ -14,7 +14,7 @@ Original Features:
 Additional Features:
 ====================
  * Added more fields and buttons for explicit control of
-   Arduino target.
+   Arduino target, plus display of information back from target.
 
 License
 =======
