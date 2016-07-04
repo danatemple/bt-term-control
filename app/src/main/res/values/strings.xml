@@ -10,7 +10,7 @@
     <!-- prefence keys, no translation needed -->
 
     <!-- This is what the app will be named on your Android device -->
-    <string name="app_name">bt-wkshop5</string>
+    <string name="app_name">bt-wkshop6</string>
 
     <string name="msg_not_connected">not connected</string>
     <string name="msg_connecting">connecting…</string>

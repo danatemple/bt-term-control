@@ -366,6 +366,8 @@ public final class DeviceControlActivity extends BaseActivity {
 
         msg.append(hexMode ? Utils.printHex(message) : message);
         if (outgoing) msg.append('\n');
+
+        // Choose between one of the following
         //logTextView.setText(msg);
         logTextView.append(msg);
 
@@ -435,7 +437,7 @@ public final class DeviceControlActivity extends BaseActivity {
                     case MESSAGE_READ:
                         final String readMessage = (String) msg.obj;
                         if (readMessage != null) {
-                            activity.appendLog(readMessage, false, false, activity.needClean);
+                            activity.appendLog(readMessage, false, false, false);
                         }
                         break;
 
